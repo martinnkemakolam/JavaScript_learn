@@ -12,5 +12,3 @@ function basic(arg){
         console.log(basic(arg-1))
     }
 }
-
-basic(75)

@@ -26,23 +26,23 @@ array.unshift('Rap', 'Reggae')
 console.log(array)
 
 // sum input number
-// let arrays = [];
-// function sumInput(num) {
-//     let userValue = prompt('message', 0)
-//     if (userValue == '' || userValue == null){
-//         sumInput()
-//     }
-//     arrays.push(userValue)
-//     let sum = 0;
-//     for (const number of arrays) {
-//         sum+= +number;
-//     }
-//     console.log(sum)
-//     console.log(arrays)
-// }
-// sumInput(2)
-// sumInput(1)
-// sumInput(3)
+let arrays = [];
+function sumInput(num) {
+    let userValue = prompt('message', 0)
+    if (userValue == '' || userValue == null){
+        sumInput()
+    }
+    arrays.push(userValue)
+    let sum = 0;
+    for (const number of arrays) {
+        sum+= +number;
+    }
+    console.log(sum)
+    console.log(arrays)
+}
+sumInput(2)
+sumInput(1)
+sumInput(3)
 
 
 let arr = [1, 2]; 
